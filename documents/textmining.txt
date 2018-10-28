@@ -1,0 +1,82 @@
+Text mining
+From Wikipedia, the free encyclopedia
+Jump to navigation
+Jump to search
+
+Text mining, also referred to as text data mining, roughly equivalent to text analytics, is the process of deriving high-quality information from text. High-quality information is typically derived through the devising of patterns and trends through means such as statistical pattern learning. Text mining usually involves the process of structuring the input text (usually parsing, along with the addition of some derived linguistic features and the removal of others, and subsequent insertion into a database), deriving patterns within the structured data, and finally evaluation and interpretation of the output. 'High quality' in text mining usually refers to some combination of relevance, novelty, and interestingness. Typical text mining tasks include text categorization, text clustering, concept/entity extraction, production of granular taxonomies, sentiment analysis, document summarization, and entity relation modeling (i.e., learning relations between named entities).
+
+Text analysis involves information retrieval, lexical analysis to study word frequency distributions, pattern recognition, tagging/annotation, information extraction, data mining techniques including link and association analysis, visualization, and predictive analytics. The overarching goal is, essentially, to turn text into data for analysis, via application of natural language processing (NLP) and analytical methods.
+
+A typical application is to scan a set of documents written in a natural language and either model the document set for predictive classification purposes or populate a database or search index with the information extracted.
+Contents
+
+    1 Text analytics
+    2 Future
+    3 Text analysis processes
+    4 Applications
+        4.1 Security applications
+        4.2 Biomedical applications
+        4.3 Software applications
+        4.4 Online media applications
+        4.5 Business and marketing applications
+        4.6 Sentiment analysis
+        4.7 Academic applications
+        4.8 Digital humanities and computational sociology
+    5 Software
+    6 Intellectual property law
+        6.1 Situation in Europe
+        6.2 Situation in the United States
+    7 Implications
+    8 See also
+    9 References
+        9.1 Citations
+        9.2 Sources
+    10 External links
+
+Text analytics
+
+The term text analytics describes a set of linguistic, statistical, and machine learning techniques that model and structure the information content of textual sources for business intelligence, exploratory data analysis, research, or investigation.[1] The term is roughly synonymous with text mining; indeed, Ronen Feldman modified a 2000 description of "text mining"[2] in 2004 to describe "text analytics".[3] The latter term is now used more frequently in business settings while "text mining" is used in some of the earliest application areas, dating to the 1980s,[4] notably life-sciences research and government intelligence.
+
+The term text analytics also describes that application of text analytics to respond to business problems, whether independently or in conjunction with query and analysis of fielded, numerical data. It is a truism that 80 percent of business-relevant information originates in unstructured form, primarily text.[5] These techniques and processes discover and present knowledge – facts, business rules, and relationships – that is otherwise locked in textual form, impenetrable to automated processing.
+Future
+
+Increasing interest is being paid to multilingual data mining: the ability to gain information across languages and cluster similar items from different linguistic sources according to their meaning.
+
+The challenge of exploiting the large proportion of enterprise information that originates in "unstructured" form has been recognized for decades.[6] It is recognized in the earliest definition of business intelligence (BI), in an October 1958 IBM Journal article by H.P. Luhn, A Business Intelligence System, which describes a system that will:
+
+    "...utilize data-processing machines for auto-abstracting and auto-encoding of documents and for creating interest profiles for each of the 'action points' in an organization. Both incoming and internally generated documents are automatically abstracted, characterized by a word pattern, and sent automatically to appropriate action points."
+
+Yet as management information systems developed starting in the 1960s, and as BI emerged in the '80s and '90s as a software category and field of practice, the emphasis was on numerical data stored in relational databases. This is not surprising: text in "unstructured" documents is hard to process. The emergence of text analytics in its current form stems from a refocusing of research in the late 1990s from algorithm development to application, as described by Prof. Marti A. Hearst in the paper Untangling Text Data Mining:[7]
+
+    For almost a decade the computational linguistics community has viewed large text collections as a resource to be tapped in order to produce better text analysis algorithms. In this paper, I have attempted to suggest a new emphasis: the use of large online text collections to discover new facts and trends about the world itself. I suggest that to make progress we do not need fully artificial intelligent text analysis; rather, a mixture of computationally-driven and user-guided analysis may open the door to exciting new results. 
+
+Hearst's 1999 statement of need fairly well describes the state of text analytics technology and practice a decade later.
+Text analysis processes
+
+Subtasks—components of a larger text-analytics effort—typically include:
+
+    Information retrieval or identification of a corpus is a preparatory step: collecting or identifying a set of textual materials, on the Web or held in a file system, database, or content corpus manager, for analysis.
+    Although some text analytics systems apply exclusively advanced statistical methods, many others apply more extensive natural language processing, such as part of speech tagging, syntactic parsing, and other types of linguistic analysis.[citation needed]
+    Named entity recognition is the use of gazetteers or statistical techniques to identify named text features: people, organizations, place names, stock ticker symbols, certain abbreviations, and so on.
+    Disambiguation—the use of contextual clues—may be required to decide where, for instance, "Ford" can refer to a former U.S. president, a vehicle manufacturer, a movie star, a river crossing, or some other entity.
+    Recognition of Pattern Identified Entities: Features such as telephone numbers, e-mail addresses, quantities (with units) can be discerned via regular expression or other pattern matches.
+    Coreference: identification of noun phrases and other terms that refer to the same object.
+    Relationship, fact, and event Extraction: identification of associations among entities and other information in text
+    Sentiment analysis involves discerning subjective (as opposed to factual) material and extracting various forms of attitudinal information: sentiment, opinion, mood, and emotion. Text analytics techniques are helpful in analyzing, sentiment at the entity, concept, or topic level and in distinguishing opinion holder and opinion object.[8]
+    Quantitative text analysis is a set of techniques stemming from the social sciences where either a human judge or a computer extracts semantic or grammatical relationships between words in order to find out the meaning or stylistic patterns of, usually, a casual personal text for the purpose of psychological profiling etc.[9]
+
+Applications
+
+The technology is now broadly applied for a wide variety of government, research, and business needs. Applications can be sorted into a number of categories by analysis type or by business function. Using this approach to classifying solutions, application categories include:
+
+    Enterprise Business Intelligence/Data Mining, Competitive Intelligence
+    E-Discovery, Records Management
+    National Security/Intelligence
+    Scientific discovery, especially Life Sciences
+    Sentiment Analysis Tools, Listening Platforms
+    Natural Language/Semantic Toolkit or Service
+    Publishing
+    Automated ad placement
+    Search/Information Access
+    Social media monitoring
+    Bioinformatics
